@@ -9,12 +9,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-[#FFFFFF]">
     <header>
     
         
         <nav class="bg-[#F9F7F3]">
-            <div class="navbar  flex justify-evenly">
+            <div class="navbar flex-col gap-5 lg:flex-row lg:gap-0 justify-evenly">
                 <div class="">
 
                     <a class="btn btn-ghost text-xl w-[150px] h-[50px] rounde-[10px] bg-[#B4F461]" id="call-home">Home</a>
@@ -31,7 +31,7 @@
                         <img src="../assets/coin.png" alt="Coin" class="w-[20px] h[20px] mr-2">
                     </div>
                     <!-- <div><button class="font-bold">Balance</button></div> -->
-                    <h1 class="font-bold text-xl" id="current-balance-btn">5000</h1><span class="ml-1 font-bold text-xl">BDT</span>
+                    <h1 class="font-bold text-xl" id="blog-current-balance-btn">5000</h1><span class="ml-1 font-bold text-xl">BDT</span>
                 </div>
 
 
@@ -46,8 +46,8 @@
     </header>
     <main class="bg-white ">
         
-        <div class="container w-fit  mb-10 mt-10">
-            <div class="font-extrabold  ml-4 text-3xl"><h1>Frequently Ask Qusetion?</h1></div>
+        <div class="w-full h-fit mb-10 mt-10 grid-cols-1  justify-center">
+            <div class="font-extrabold  ml-4 text-2xl lg:text-5xl text-center"><h1>Frequently Ask Qusetion?</h1></div>
             
             <div class="collapse collapse-plus bg-white rounded-lg shadow-md mb-5 ">
                 <input type="radio" name="my-accordion-3" checked="checked"/>
@@ -136,12 +136,12 @@
 
         </div>
     </main>
-    <footer class="bg-[#F9F7F3] w-full h-[100px]">
-
+    <footer class="bg-[#F9F7F3] w-full h-auto">
     </footer>
     <script src="blog.js"></script>
     <script src="utilities.js"></script>
     <script src="feature.js"></script>
+    
 </body>
 
 </html>
