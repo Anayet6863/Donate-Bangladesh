@@ -55,7 +55,6 @@ function historyAdded(cardValue, location) {
 
   const p = document.createElement('p');
   p.innerText = `${cardValue} Taka is ${location} \n Date: ${new Date}`;
-
   div.appendChild(p);
   document.getElementById('history-container').appendChild(div);
 }
