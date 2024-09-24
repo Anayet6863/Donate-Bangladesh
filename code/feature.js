@@ -72,7 +72,7 @@ document.getElementById("donate-now-btn1").addEventListener('click', function ()
 // Iput call for card2
 document.getElementById("donate-now-btn2").addEventListener('click', function () {
     const card2Value = getInputFieldValue("card2-input");
-    document.getElementById("card1-input").value = "";
+    document.getElementById("card2-input").value = "";
     if (card2Value === 'null' || card2Value == 0 || isNaN(card2Value) || card2Value < 0 || card2Value == "") {
         alert("Invalid Input.Please try again.");
     }
@@ -106,7 +106,7 @@ document.getElementById("donate-now-btn2").addEventListener('click', function ()
 // Iput call for card3
 document.getElementById("donate-now-btn3").addEventListener('click', function () {
     const card3Value = getInputFieldValue("card3-input");
-    document.getElementById("card1-input").value = "";
+    document.getElementById("card3-input").value = "";
     if (card3Value === 'null' || card3Value == 0 || isNaN(card3Value) || card3Value < 0 || card3Value === "") {
         alert("Invalid Input.Please try again.");
     }
