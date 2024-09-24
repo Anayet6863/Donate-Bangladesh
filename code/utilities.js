@@ -1,3 +1,4 @@
+
 //Function for Remove class
 function hiddenClass(id) {
   document.getElementById(id).classList.remove('hidden');
@@ -18,7 +19,7 @@ function callHome() {
 
   //console.log("call home");
   window.location.href = "index.html";
-  //window.open("index.html", "_blank");
+  // window.open("index.html", "_blank");
 }
 
 // Receive Input from input field:
@@ -29,7 +30,7 @@ function getInputFieldValue(id) {
 }
 // Update balcnce:
 
-function updateBalance(cardValue) {
+ function updateBalance(cardValue) {
   const currentBalance = document.getElementById("current-balance-btn").innerText;
   //console.log(currentBalance);
 
@@ -37,6 +38,7 @@ function updateBalance(cardValue) {
   document.getElementById("current-balance-btn").innerText = updateBalance;
  
 }
+
 
 // History Added:
 function historyAdded(cardValue, location) {
