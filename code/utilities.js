@@ -9,8 +9,8 @@ function addClass(id) {
   document.getElementById(id).classList.add("hidden");
 }
 function callBlog() {
-  //window.location.href="blog.html";
-  window.open("blog.html", "_blank");
+  window.location.href="blog.html";
+  // window.open("blog.html", "_blank");
 
 
 }
@@ -51,6 +51,7 @@ function historyAdded(cardValue, location) {
   div.style.boxShadow = 'rgba(0, 0, 0, 0.16) 0px 1px 4px'
   div.style.alignItems = 'center';
   div.style.marginBottom = '10px';
+  div.style.padding = '10px'
   
 
   const p = document.createElement('p');
